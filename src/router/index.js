@@ -1,11 +1,41 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
+import Table from '../views/Table.vue'
+import Form from '../views/Form.vue'
+import Signin from '../views/Signin.vue'
+import Alert from '../views/Alert.vue'
+import Breadcrumb from '../views/Breadcrumb.vue'
 
 const routes = [
   {
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/table',
+    name: 'Table',
+    component: Table
+  },
+  {
+    path: '/form',
+    name: 'Form',
+    component: Form
+  },
+  {
+    path: '/signin',
+    name: 'Signin',
+    component: Signin
+  },
+  {
+    path: '/alert',
+    name: 'Alert',
+    component: Alert
+  },
+  {
+    path: '/breadcrumb',
+    name: 'Breadcrumb',
+    component: Breadcrumb
   },
   {
     path: '/about',
